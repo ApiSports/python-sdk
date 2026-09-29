@@ -12,11 +12,22 @@ license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = []
 keywords = ["baseball", "api", "sdk", "apibaseball", "sports"]
+authors = [{ name = "ApiSports" }]
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
     "Typing :: Typed",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ApiSports/python-sdk"
+Repository = "https://github.com/ApiSports/python-sdk"
+Documentation = "https://github.com/ApiSports/python-sdk"
+Issues = "https://github.com/ApiSports/python-sdk/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "mypy>=1.10", "ruff>=0.5"]
